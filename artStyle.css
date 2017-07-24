@@ -1,6 +1,9 @@
 /* artStyle.css */
+head {
+	background-color: #FFFFFF;
+}
 body {
- background-color: #000a19;
+ background-color: #FFFFFF;
  color: #473c3c;
 }
 h1 {
