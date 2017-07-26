@@ -23,3 +23,17 @@ p {
 	max-width: 100%;
 	height: auto;
 }
+.title {
+	margin-top: 40px;
+	text-indent: 80px;
+	font-family: 'Lusitana', serif;
+	font-size: 80px;
+}
+.info {
+	position: absolute;
+	left: 700px;
+	margin-top: 160px;
+	font-family: 'Lusitana', serif;
+	font-size: 40px;
+	color: #473c3c
+}
