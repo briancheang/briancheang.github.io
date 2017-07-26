@@ -6,7 +6,7 @@ body {
 h1 {
  color: #000000;
  text-align: center;
- font: italic 100% Arial;
+ font: Nunito 100%;
 }
 h2 {
  color: #000000;
@@ -18,4 +18,8 @@ p {
  color: #000000	;
  text-align: left;
  font: italic 100% Arial;
+}
+.fit {
+	max-width: 100%;
+	height: auto;
 }
