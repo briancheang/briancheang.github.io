@@ -1,4 +1,8 @@
 /* myStyle.css */
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+   background: rgba(0,0,0,0.4);
+}
 body {
  background-color: #FFFFFF;
  color: #473c3c;
@@ -27,12 +31,16 @@ p {
 	margin-top: 40px;
 	text-indent: 80px;
 	font-family: 'Lusitana', serif;
-	font-size: 80px;
+	font-size: 60px;
 }
 .info {
 	position: absolute;
-	left: 700px;
+	left: 600px;
 	margin-top: 160px;
+	margin-right: 80px;
 	font-family: 'Lusitana', serif;
 	font-size: 40px;
+}
+.artwork {
+	margin-top: 50px;
 }
