@@ -8,13 +8,23 @@ body {
  color: #473c3c;
 }
 a {
-	font-family: 'Lusitana', serif;
-	font-size: 18px	;
+	font-family: 'Montserrat', serif;
+	font-size: 15px	;
 }
+a:hover {
+	font-weight: bold; 
+}
+
 p {
 	font-family: 'Lusitana', serif;
 	font-size: 30px;
 }
+
+.active {
+	font-weight: 900;
+	font-size: 16px;
+}
+
 .fit {
 	max-width: 100%;
 	height: auto;
