@@ -31,7 +31,7 @@ p {
 	height: auto;
 }
 .title {
-	margin-top: 80px;
+	margin-top: 140px;
 	text-indent: 80px;
 	font-family: 'Lusitana', serif;
 	font-size: 60px;
@@ -44,7 +44,7 @@ p {
 	font-size: 40px;
 }
 .artwork {
-	margin-top: 15px;
+	margin-top: 80px;
 	position: relative;
 	height: 100%;
 }
