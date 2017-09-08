@@ -13,6 +13,7 @@ body.fade-out {
 	opacity: 0;
 	transition: none;
 }
+
 a {
 	font-weight: 100;
 	font-family: 'Raleway', serif;
@@ -25,6 +26,14 @@ a:hover {
 p {
 	font-family: 'Lusitana', serif;
 	font-size: 30px;
+}
+
+div {
+	opacity: 1;
+	transition: 1s opacity;
+}
+div.hidden {
+	display: none;
 }
 
 .active {

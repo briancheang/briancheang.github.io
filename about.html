@@ -9,8 +9,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script>
-    $(function() {
-      $('body').removeClass('fade-out');
+    $(document).ready(function() {
+        $('div.hidden').fadeIn(200).removeClass('hidden');
     });
   </script>
   <title>about | Brian Cheang</title>
@@ -33,7 +33,6 @@
 </style>
 </head>
 <body>
-  <script>document.body.className += ' fade-out';</script>
   <nav class="navbar navbar-custom navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -53,7 +52,7 @@
     </div>
     </div>
   </nav>
-  <div>
+  <div class="hidden">
     <div class="title">Howdy Friend,</div>
     <div class="info">
       I'm currently a sophomore studying Computer Science at Cornell University, and I love all things design

@@ -9,8 +9,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script>
-    $(function() {
-      $('body').removeClass('fade-out');
+    $(document).ready(function() {
+        $('div.hidden').fadeIn(200).removeClass('hidden');
     });
   </script>
   <title>artwork | Brian Cheang</title>
@@ -23,7 +23,6 @@
   </style>
 </head>
 <body>
-  <script>document.body.className += ' fade-out';</script>
   <nav class="navbar navbar-custom navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -43,17 +42,19 @@
     </div>
     </div>
   </nav>
-<div class="container" align="middle">
-  <img class="fit artwork" src="images/Shoes-wide.jpeg" alt="Shoes.jpeg" class="image" width="750" height=auto> 
-</div>
-<div class="caption" align="middle">
-  July 2017
-</div>
-<div class="container" align="middle">
-  <img class="fit artwork" src="images/Girls.png" alt="Girls.png" class="image" width="500" height=auto> 
-</div>
-<div class="caption" align="middle">
-  July 2017
-</div>
+  <div class="hidden">
+    <div class="container" align="middle">
+      <img class="fit artwork" src="images/Shoes-wide.jpeg" alt="Shoes.jpeg" class="image" width="750" height=auto> 
+    </div>
+    <div class="caption" align="middle">
+      July 2017
+    </div>
+    <div class="container" align="middle">
+      <img class="fit artwork" src="images/Girls.png" alt="Girls.png" class="image" width="500" height=auto> 
+    </div>
+    <div class="caption" align="middle">
+      July 2017
+    </div>
+  </div>
 </body>
 </html>
