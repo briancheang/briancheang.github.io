@@ -4,8 +4,14 @@
    background: rgba(0,0,0,0.4);
 }
 body {
- background-color: #FFFFFF;
- color: #473c3c;
+	background-color: #FFFFFF;
+ 	color: #473c3c;
+ 	opacity: 1;
+ 	transition: 1s opacity;
+}
+body.fade-out {
+	opacity: 0;
+	transition: none;
 }
 a {
 	font-weight: 100;
@@ -77,7 +83,7 @@ p {
 .navbar-custom .navbar-nav > .open >a {
     text-decoration: none;
     color: #383838;
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 .navbar-custom .navbar-brand {
