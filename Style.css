@@ -13,7 +13,7 @@ a {
 	font-size: 15px;
 }
 a:hover {
-	font-weight: bold; 
+	font-weight: bold;
 }
 
 p {
@@ -38,18 +38,26 @@ div.hidden {
 	max-width: 100%;
 	height: auto;
 }
-.title {
-	margin-top: 140px;
-	text-indent: 80px;
-	font-family: 'Lusitana', serif;
-	font-size: 60px;
+.block {
+  max-width: 100%;
+  height: auto;
+  margin-top: 270px;
+  position: relative;
 }
-.info{
-	position: absolute;
-	left: 250px;
-	margin-top: 16vh;
+.title {
+  position: absolute;
+	margin-top: 200px;
+	text-indent: 20px;
 	font-family: 'Lusitana', serif;
 	font-size: 40px;
+}
+.info{
+  position: absolute;
+	margin-top: 310px;
+  margin-left: 100px;
+  margin-right: 250px;
+	font-family: 'Lusitana', serif;
+	font-size: 30px;
 }
 .artwork {
 	margin-top: 80px;
@@ -97,5 +105,3 @@ div.hidden {
 .navbar-custom .icon-bar {
     background-color:#727272;
 }
-
-
