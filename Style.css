@@ -16,6 +16,14 @@ a:hover {
 	font-weight: bold;
 }
 
+b {
+  font-weight: 100;
+  font-family: 'Raleway', serif;
+  font-size: 15px;
+  display: block;
+  margin-top: 20px;
+}
+
 p {
 	font-family: 'Lusitana', serif;
 	font-size: 30px;
@@ -69,6 +77,12 @@ div.hidden {
 	margin-bottom: 60px;
 	font-family: 'Lusitana', serif;
 	font-size: 25px;
+}
+.link {
+  margin-top: 50px;
+  margin-left: 80px;
+  font-family: 'Lusitana', serif;
+  font-size: 35px;
 }
 .navbar-custom {
     background-color:#ffffff;
