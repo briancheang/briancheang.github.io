@@ -14,6 +14,25 @@
         $('div.hidden').fadeIn(200).removeClass('hidden');
     });
   </script>
+  <style>
+    @media screen and (max-width: 840px) {
+      .title{
+        margin-top: 150px;
+        text-indent: 20px;
+        font-family: 'Lusitana', serif;
+        font-size: 26px;
+      }
+      .info {
+        margin-top: 210px;
+        margin-left: 40px;
+        margin-right: 20px;
+        font-size: 22px;
+      }
+      .block {
+        margin-top: 240px;
+      }
+    }
+  </style>
   </head>
 <body>
   <nav class="navbar navbar-custom navbar-fixed-top">
@@ -28,7 +47,6 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a class = "tab" href="about">about</a></li>
         <li><a href="projects">projects</a></li>
         <li><a href="artwork">artwork</a></li>
       </ul>
@@ -36,8 +54,14 @@
     </div>
   </nav>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <div class="container hidden" align="middle">
-    <!--<img class="fit" style="margin-top:180px" src="Brian2018.png" class="image" width="400" height=auto align="middle">-->
+<div class="hidden">
+  <div class="container hidden" align="left">
+    <div class="title">Howdy Friend,</div>
+    <!--img class="block" style="margin-top:270px" src="redblock.png" class="image" width="900" height=auto align="left"-->
+    <div class="info">
+      I'm currently a junior studying Computer Science at Cornell University, and I love all things design.
+    </div>
   </div>
+</div>
 </body>
 </html>

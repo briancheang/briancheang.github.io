@@ -84,6 +84,9 @@ div.hidden {
   font-family: 'Lusitana', serif;
   font-size: 35px;
 }
+.proj_img {
+  margin-left: 80px;
+}
 .navbar-custom {
     background-color:#ffffff;
     color:#000000;
