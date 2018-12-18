@@ -24,11 +24,6 @@ b {
   margin-top: 20px;
 }
 
-p {
-	font-family: 'Lusitana', serif;
-	font-size: 30px;
-}
-
 div {
 	opacity: 1;
 	transition: 1s opacity;
@@ -37,6 +32,9 @@ div.hidden {
 	display: none;
 }
 
+.container {
+  position: relative;
+}
 .active {
 	font-weight: bolder;
 	font-size: 15px;
@@ -79,15 +77,25 @@ div.hidden {
 	font-size: 25px;
 }
 .link {
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 20px;
+  margin-top: 40px;
+  position: absolute;
   font-family: 'Lusitana', serif;
   font-size: 22px;
 }
-.proj_img {
-  margin-left: 110px;
-  margin-right: 110px;
+.project {
+  margin-left: 10%;
+  margin-top: 2%;
+  font-family: 'Lusitana', serif;
+  font-size: 16px;
+  max-width: 80%;
+}
+.proj-img {
+  margin-right: 5%;
+}
+.proj-text {
+  font-family: 'Lusitana', serif;
+  position: absolute;
+  display: none;
 }
 .navbar-custom {
     background-color:#C1AD90;
