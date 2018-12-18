@@ -4,8 +4,8 @@
    background: rgba(0,0,0,0.4);
 }
 body {
-	background-color: #FFFFFF;
- 	color: #473c3c;
+	background-color: #C1AD90;
+ 	color: #3B2A19;
 }
 a {
 	font-weight: 100;
@@ -81,14 +81,16 @@ div.hidden {
 .link {
   margin-top: 50px;
   margin-left: 120px;
+  margin-right: 120px;
   font-family: 'Lusitana', serif;
-  font-size: 35px;
+  font-size: 25px;
 }
 .proj_img {
   margin-left: 110px;
+  margin-right: 110px;
 }
 .navbar-custom {
-    background-color:#ffffff;
+    background-color:#C1AD90;
     color:#000000;
     border-radius:0;
 }
