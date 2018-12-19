@@ -94,6 +94,13 @@ div.hidden {
   max-width: 50%;
 }
 
+.proj-link {
+  position: relative;
+  left: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
 .proj-text {
   font-weight: lighter;
   margin-top:10px;
