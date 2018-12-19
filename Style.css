@@ -1,10 +1,7 @@
 /* myStyle.css */
 
-.navbar.transparent.navbar-inverse .navbar-inner {
-   background: rgba(0,0,0,0.4);
-}
 body {
-	background-color: #C1AD90;
+	background-color: #CCB99C;
  	color: #3B2A19;
 }
 a {
@@ -23,7 +20,6 @@ b {
   display: block;
   margin-top: 20px;
 }
-
 div {
 	opacity: 1;
 	transition: 1s opacity;
@@ -31,7 +27,6 @@ div {
 div.hidden {
 	display: none;
 }
-
 .container {
   position: relative;
 }
@@ -39,7 +34,6 @@ div.hidden {
 	font-weight: bolder;
 	font-size: 15px;
 }
-
 .fit {
 	max-width: 100%;
 	height: auto;
@@ -77,41 +71,50 @@ div.hidden {
 	font-size: 25px;
 }
 .link {
-  margin-top: 40px;
-  position: absolute;
   font-family: 'Lusitana', serif;
   font-size: 22px;
 }
-.project {
-  margin-left: 15%;
-  margin-top: 2%;
+.proj {
+  margin-left: 5%;
+  margin-top: 3%;
   font-family: 'Lusitana', serif;
-  font-size: 16px;
-  max-width: 80%;
+  overflow: auto;
 }
-.proj-img {
-  margin-right: 5%;
+
+.proj > img,
+.proj > span {
+  display: inline-block;
 }
-.proj-text {
-  font-family: 'Lusitana', serif;
+
+.proj-title{
+  margin-left: 5%;
   position: absolute;
-  display: none;
+  font-weight: bold;
+  font-size: 22px;
+  max-width: 50%;
+}
+
+.proj-text {
+  font-weight: lighter;
+  margin-top:10px;
+  font-size: 18px;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+   background: rgba(0,0,0,0.4);
 }
 .navbar-custom {
-    background-color:#C1AD90;
+    background-color:#CCB99C;
     color:#000000;
     border-radius:0;
 }
-
 .navbar-custom .navbar-nav > li > a {
     color:#727272;
 }
-
 .navbar-custom .navbar-nav > .active > a {
     color: #ffffff;
     background-color:transparent;
 }
-
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus,
 .navbar-custom .navbar-nav > .active > a:hover,
@@ -121,7 +124,6 @@ div.hidden {
     color: #383838;
     background-color: transparent;
 }
-
 .navbar-custom .navbar-brand {
     color:#2d2d2d;
 }
@@ -130,4 +132,22 @@ div.hidden {
 }
 .navbar-custom .icon-bar {
     background-color:#727272;
+}
+
+@media screen and (max-width: 840px) {
+  .title{
+    margin-top: 150px;
+    text-indent: 20px;
+    font-family: 'Lusitana', serif;
+    font-size: 26px;
+  }
+  .info {
+    margin-top: 210px;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size: 22px;
+  }
+  .block {
+    margin-top: 240px;
+  }
 }
