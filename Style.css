@@ -94,16 +94,22 @@ div.hidden {
   max-width: 50%;
 }
 
+.proj-button {
+  color: #ffffff;
+  background-color: #AC956D;
+  border: none;
+  border-radius: 2px;
+  font-weight: normal;
+}
+
 .proj-link {
-  position: relative;
-  left: 10px;
   font-weight: bold;
   font-size: 14px;
 }
 
 .proj-text {
   font-weight: lighter;
-  margin-top:10px;
+  margin-top:2px;
   font-size: 18px;
 }
 
