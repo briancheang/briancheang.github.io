@@ -76,9 +76,10 @@ div.hidden {
 }
 .proj {
   margin-left: 5%;
-  margin-top: 3%;
+  margin-top: 4%;
   font-family: 'Lusitana', serif;
   overflow: auto;
+  display: inline-block;
 }
 
 .proj > img,
@@ -96,7 +97,7 @@ div.hidden {
 
 .proj-button {
   color: #ffffff;
-  background-color: #AC956D;
+  background-color: #B7A58C;
   border: none;
   border-radius: 2px;
   font-weight: normal;
