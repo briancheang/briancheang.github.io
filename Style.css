@@ -1,167 +1,117 @@
 /* myStyle.css */
+@font-face {
+	font-family: PrimeLight;
+	src: url('fonts/prime/PrimeLight.otf') format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
 
 body {
-	background-color: #CCB99C;
- 	color: #3B2A19;
-}
-a {
-	font-weight: 100;
-	font-family: 'Raleway', serif;
-	font-size: 15px;
-}
-a:hover {
-	font-weight: bold;
+	background-color: #4901E6;
+	background-image: url(images/grid.png);
+	background-size: auto;
+	background-repeat: repeat;
 }
 
-b {
-  font-weight: 100;
-  font-family: 'Raleway', serif;
-  font-size: 15px;
-  display: block;
-  margin-top: 20px;
+.border-container {
+	position: absolute;
+	left:0; right:0;
+	top:0; bottom:0;
+	margin: auto;
+	width: 800px;
+	height: 600px;
+	border: 1.3px dashed rgba(255,255,0,0.3);
+	border-radius: 10px;
+	overflow: auto;
 }
+
 div {
 	opacity: 1;
-	transition: 1s opacity;
+	transition: 0.1s opacity;
 }
+
 div.hidden {
 	display: none;
 }
-.container {
-  position: relative;
+
+.nav {
+	color: yellow;
+	position: absolute;
+	left: 10px; right: 0;
+	top: 10px; bottom: 0;
+	opacity: 1;
 }
-.active {
-	font-weight: bolder;
+
+.a {
+	color: yellow;
+}
+
+.back {
+	position: absolute;
+	left: 10px; right: 0;
+	top: 4px; bottom: 0;
+	color: yellow;
+	font-family: 'PrimeLight';
+	font-size: 14px;
+}
+
+.box-1 {
+	position: absolute;
+	left:20px; right:0;
+	top:0; bottom:0;
+	font-family: PrimeLight;
+	text-align: left;
 	font-size: 15px;
+	color: yellow;
+	width: 180px;
+	height: 125px;
+	border: 1.6px dotted rgba(255,255,0,0.15);
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.08);
+	opacity: 0.7;
 }
-.fit {
-	max-width: 100%;
-	height: auto;
+
+.box-2 {
+	position: absolute;
+	left:220px; right:0;
+	top:20px; bottom:0;
+	font-family: PrimeLight;
+	font-size: 15px;
+	color: yellow;
+	width: 400px;
+	height: 110px;
+	border: 1.3px dotted rgba(255,255,0,0.3);
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.1);
+	overflow: auto;
 }
-.block {
-  max-width: 100%;
-  height: auto;
-  margin-top: 270px;
-  position: relative;
+
+.center-text {
+	position: absolute;
+	left:0; right:0;
+	top:255px; bottom:0;
+	text-align: center;
+	font-family: PrimeLight;
+	color: yellow;
 }
-.title {
-  position: absolute;
-	margin-top: 200px;
-	text-indent: 20px;
-	font-family: 'Lusitana', serif;
-	font-size: 40px;
+
+.centered{
+	position: absolute;
+	left:0; right:0;
+	top:0; bottom:0;
+	margin: auto;
+	overflow: auto;
 }
-.info{
-  position: absolute;
-	margin-top: 310px;
-  margin-left: 100px;
-  margin-right: 120px;
-	font-family: 'Lusitana', serif;
-	font-size: 30px;
-}
-.artwork {
-	margin-top: 80px;
-	position: relative;
-	height: 100%;
-}
-.caption {
-	margin-top: 20px;
-	margin-bottom: 60px;
-	font-family: 'Lusitana', serif;
-	font-size: 25px;
-}
+
 .link {
-  font-family: 'Lusitana', serif;
-  font-size: 22px;
-}
-.proj {
-  margin-left: 5%;
-  margin-top: 4%;
-  font-family: 'Lusitana', serif;
-  overflow: auto;
-  display: inline-block;
+	color: green;
 }
 
-.proj > img,
-.proj > span {
-  display: inline-block;
-}
-
-.proj-title{
-  margin-left: 5%;
-  position: absolute;
-  font-weight: bold;
-  font-size: 22px;
-  max-width: 50%;
-}
-
-.proj-button {
-  color: #ffffff;
-  background-color: #B7A58C;
-  border: none;
-  border-radius: 2px;
-  font-weight: normal;
-}
-
-.proj-link {
-  font-weight: bold;
-  font-size: 14px;
-}
-
-.proj-text {
-  font-weight: lighter;
-  margin-top:2px;
-  font-size: 18px;
-}
-
-.navbar.transparent.navbar-inverse .navbar-inner {
-   background: rgba(0,0,0,0.4);
-}
-.navbar-custom {
-    background-color:#CCB99C;
-    color:#000000;
-    border-radius:0;
-}
-.navbar-custom .navbar-nav > li > a {
-    color:#727272;
-}
-.navbar-custom .navbar-nav > .active > a {
-    color: #ffffff;
-    background-color:transparent;
-}
-.navbar-custom .navbar-nav > li > a:hover,
-.navbar-custom .navbar-nav > li > a:focus,
-.navbar-custom .navbar-nav > .active > a:hover,
-.navbar-custom .navbar-nav > .active > a:focus,
-.navbar-custom .navbar-nav > .open >a {
-    text-decoration: none;
-    color: #383838;
-    background-color: transparent;
-}
-.navbar-custom .navbar-brand {
-    color:#2d2d2d;
-}
-.navbar-custom .navbar-toggle {
-    background-color:#ffffff;
-}
-.navbar-custom .icon-bar {
-    background-color:#727272;
-}
-
-@media screen and (max-width: 840px) {
-  .title{
-    margin-top: 150px;
-    text-indent: 20px;
-    font-family: 'Lusitana', serif;
-    font-size: 26px;
-  }
-  .info {
-    margin-top: 210px;
-    margin-left: 40px;
-    margin-right: 20px;
-    font-size: 22px;
-  }
-  .block {
-    margin-top: 240px;
-  }
+.title {
+	position: absolute;
+	left: 130px; right: 0;
+	top: 38px; bottom: 0;
+	font-family: 'PrimeLight';
+	font-size: 50px;
+	color: yellow;
 }
