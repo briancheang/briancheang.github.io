@@ -6,23 +6,22 @@
 	font-style: normal;
 }
 
+.about {
+	position: absolute;
+	left: 100px; right: 0;
+	top: 100px; bottom: 0;
+	width: 600px;
+	font-family: 'PrimeLight';
+	font-size: 35px;
+	color: yellow;
+	opacity: 0.8;
+}
+
 body {
 	background-color: #4901E6;
 	background-image: url(images/grid.png);
 	background-size: auto;
 	background-repeat: repeat;
-}
-
-.border-container {
-	position: absolute;
-	left:0; right:0;
-	top:0; bottom:0;
-	margin: auto;
-	width: 800px;
-	height: 600px;
-	border: 1.3px dashed rgba(255,255,0,0.3);
-	border-radius: 10px;
-	overflow: auto;
 }
 
 div {
@@ -50,9 +49,23 @@ div.hidden {
 	position: absolute;
 	left: 10px; right: 0;
 	top: 4px; bottom: 0;
+	width: 40px;
+	height: 10px;
 	color: yellow;
 	font-family: 'PrimeLight';
 	font-size: 14px;
+}
+
+.border-container {
+	position: absolute;
+	left:0; right:0;
+	top:0; bottom:0;
+	margin: auto;
+	width: 800px;
+	height: 600px;
+	border: 1.3px dashed rgba(255,255,0,0.3);
+	border-radius: 10px;
+	overflow: auto;
 }
 
 .box-1 {
