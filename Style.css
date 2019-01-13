@@ -152,11 +152,10 @@ div.hidden {
 	opacity: 0.7;
 }
 
-.p-link {
+.p-github {
 	position: absolute;
-	left:90px; right:0;
-	top:130px; bottom:0;
-	color: #BB9999;
+	left:510px; right:0;
+	top:10px; bottom:0;
 }
 
 .p-title {
