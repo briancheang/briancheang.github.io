@@ -62,10 +62,12 @@ div.hidden {
 	top:0; bottom:0;
 	margin: auto;
 	width: 800px;
+	max-width: 90%;
 	height: 600px;
 	border: 1.3px dashed rgba(255,255,0,0.3);
 	border-radius: 10px;
 	overflow: auto;
+	overflow-y: hidden;
 }
 
 .center-text {
